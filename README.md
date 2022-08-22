@@ -1,5 +1,5 @@
 # Determine Pyramid Height:
-![ScreenShot](pyramid.png)
+![ScreenShot](https://github.com/NavarroAlexKU/Loops-and-List-Functions-in-Python/blob/bff02419b3f444915476d0da0258719100424c2b/beatles.png)
 
 ## Project Objectives:
 * create an empty list named beatles;
