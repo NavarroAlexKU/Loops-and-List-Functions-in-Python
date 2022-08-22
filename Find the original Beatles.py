@@ -12,7 +12,9 @@ beatles = []
 # names to append:
 names_to_append = ['John Lennon', 'Paul McCartney', 'George Harrison']
 
+# set count to 0:
 count = 0
+
 # loop and append names to beatles:
 for names in names_to_append:
     beatles.append(names)
@@ -27,14 +29,14 @@ for names in names_to_append:
         # break out of loop:
         break
     
-# determine index of each string value:
-index_list = []
 
+# loop through beatles list and extract the index and value of each item:
 for i,v in enumerate(beatles):
-    # if the value == 'Stu Sutcliffe': append index:
+    # if the value == 'Stu Sutcliffe': delete from list:
     if v == 'Stu Sutcliffe':
         # delete from beatles:
         del beatles[i]
+    # if the value == 'Pete Best': delete from list:
     elif v == 'Pete Best':
         # delete from beatles:
         del beatles[i]
